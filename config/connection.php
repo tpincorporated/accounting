@@ -1,9 +1,9 @@
 <?php
 
-	$host = "127.0.0.1:3372";
+	$host = "127.0.0.1";
 	$dbname = "accounting";
 	$username = "root";
-	$password = "root";
+	$password = "";
 
 	@define('DBNAME', $dbname);
 
