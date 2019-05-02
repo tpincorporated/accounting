@@ -126,7 +126,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <div class='page-title'>
-                    Upload Shipper Rate
+                    New Chart of Account
                     <button class="close" data-dismiss="modal">&times;</button>
                 </div>
             </div>
@@ -152,7 +152,7 @@
             </div>
             <div class="modal-footer">
                 <div class="text-center">
-                    <button class='btn btn-blue2 mybtn' id='addchartofaccountsmodal-uploadbtn'>Upload</button>
+                    <button class='btn btn-blue2 mybtn' id='addchartofaccountsmodal-uploadbtn'>Save</button>
                     <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
                 </div>
             </div>
@@ -180,7 +180,7 @@
 						{display: 'Total', name : 'total', width : 200, sortable : true, align: 'right'}
 				],
 				buttons : [
-						{name: 'Add', bclass: 'add addcarrierbtn', onpress : ''},
+						{name: 'Add', bclass: 'add addcarrierbtn', onpress : showaddchartofaccountsmodal},
 						{separator: true},
 						{name: 'Delete', bclass: 'delete addcarrierbtn', onpress : ''}
 						/*{separator: true},
@@ -206,6 +206,9 @@
 		});
 
 	
+		function showaddchartofaccountsmodal(){
+			$("#addchartofaccountsmodal").modal('show')
+		}
 		
 
 		
