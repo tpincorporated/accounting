@@ -279,7 +279,85 @@
                     <div class='col-md-offset-1 col-md-6'>
                     	<div class="form-group">
                             <label class='control-label'>Select Type</label>
-                            <select class='form-control addchartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
+								<option value="Detail">Detail</option>
+								<option value="Detail">Header</option>
+                            </select>
+                        </div>
+                        <div class="form-group"> 
+
+                        </div>
+                    </div>
+                </form>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class='btn btn-blue2 mybtn' id='addchartofaccountsmodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="add-collection-credit-memo-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class='page-title'>
+                    New Credit Memo
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" method='post' id='addchartofaccountsmodal-form'  enctype='multipart/form-data'>
+                    <div class='col-md-4'>
+
+                    </div>
+                    <div class='col-md-offset-1 col-md-6'>
+                    	<div class="form-group">
+                            <label class='control-label'>Select Type</label>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
+								<option value="Detail">Detail</option>
+								<option value="Detail">Header</option>
+                            </select>
+                        </div>
+                        <div class="form-group"> 
+
+                        </div>
+                    </div>
+                </form>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class='btn btn-blue2 mybtn' id='addchartofaccountsmodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="add-collection-receivables-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class='page-title'>
+                    New Receivables
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" method='post' id='addchartofaccountsmodal-form'  enctype='multipart/form-data'>
+                    <div class='col-md-4'>
+
+                    </div>
+                    <div class='col-md-offset-1 col-md-6'>
+                    	<div class="form-group">
+                            <label class='control-label'>Select Type</label>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
 								<option value="Detail">Detail</option>
 								<option value="Detail">Header</option>
                             </select>
@@ -374,7 +452,7 @@
                         {display: 'Amount', name : 'creditaccountnumber', width : 150, sortable : true, align: 'right'}
                 ],
                 buttons : [
-                        {name: 'Add', bclass: 'add', onpress : ''},
+                        {name: 'Add', bclass: 'add', onpress :  showaddcollectioncreditmemomodal},
                         {separator: true},
                         {name: 'Delete', bclass: 'delete', onpress : ''}
                         /*{separator: true},
@@ -414,7 +492,7 @@
                         {display: 'Credit Amount', name : 'creditaccountnumber', width : 150, sortable : true, align: 'left'}
                 ],
                 buttons : [
-                        {name: 'Add', bclass: 'add', onpress : ''},
+                        {name: 'Add', bclass: 'add', onpress : showaddcollectionreceivablesmodal},
                         {separator: true},
                         {name: 'Delete', bclass: 'delete', onpress : ''}
                         /*{separator: true},
@@ -441,6 +519,14 @@
 
 			   function showaddcollectionpaymentsmodal(){
 			$("#add-collection-payments-modal").modal('show')
+		}
+
+		function showaddcollectioncreditmemomodal(){
+			$("#add-collection-credit-memo-modal").modal('show')
+		}
+
+		function showaddcollectionreceivablesmodal(){
+			$("#add-collection-receivables-modal").modal('show')
 		}
 
 	       
