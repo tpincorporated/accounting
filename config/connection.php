@@ -3,7 +3,7 @@
 	$host = "127.0.0.1";
 	$dbname = "accounting";
 	$username = "root";
-	$password = "";
+	$password = "root";
 
 	@define('DBNAME', $dbname);
 
