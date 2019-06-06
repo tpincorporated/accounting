@@ -278,27 +278,35 @@
                     </div>
                     <div class='col-md-offset-1 col-md-6'>
                     	<div class="form-group">
-                            <input type="text" name="coll-payments-no" id="coll-payments-no" class="form-control colladdpaymentdetailsmodal-no"/>
+                            
                             <label class='control-label'>Select Type</label>
                             <select class='form-control colladdpaymentdetailsmodal-mtdtype select2' name='colladdpaymentdetailsmodal-mtdtype'>
 								
                             </select>
+                        </div>
+                        <div class="form-group"> 
+                            <input type="text" name="coll-payments-no" id="coll-payments-no" class="form-control colladdpaymentdetailsmodal-no"/>
+                        </div>
+                        <div class="form-group">
                             <input type="number" name="colladdpaymentdetailsmodal-amt" id="colladdpaymentdetailsmodal-amt" class="form-control colladdpaymentdetailsmodal-amt">
+                        </div>
+                        <div class="form-group">
                             <select class='form-control colladdpaymentdetailsmodal-bankacc select2' name='colladdpaymentdetailsmodal-bankacc'>
-
                             </select>
+                        </div>
+                        <div class="form-group">
                             <input type="text" name="coll-payments-checkno" id="coll-payments-checkno" class="form-control colladdpaymentdetailsmodal-checkno"/>
+                        </div>
+                        <div class="form-group">
                             <select class='form-control colladdpaymentdetailsmodal-bank select2' name='colladdpaymentdetailsmodal-bank'>
                                 <option value="1">BDO</option>
 								<option value="2">BPI</option>
                                 <option value="3">SECURITY BANK</option>
                             </select>
-                            <select class='form-control colladdpaymentdetailsmodal-colltype select2' name='colladdpaymentdetailsmodal-colltype'>
-
-                            </select>
                         </div>
-                        <div class="form-group"> 
-
+                        <div class="form-group">
+                            <select class='form-control colladdpaymentdetailsmodal-colltype select2' name='colladdpaymentdetailsmodal-colltype'>
+                            </select>
                         </div>
                     </div>
                 </form>
