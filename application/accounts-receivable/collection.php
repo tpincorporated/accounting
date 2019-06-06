@@ -283,7 +283,7 @@
                             <input type="text" name="coll-payments-no" id="coll-payments-no" class="form-control colladdpaymentdetailsmodal-no"/>
                         </div>
                     	<div class="form-group">
-                            <label class='control-label'>Select Type</label>
+                            <label class='control-label'>Select MTD Type</label>
                             <select class='form-control colladdpaymentdetailsmodal-mtdtype select2' name='colladdpaymentdetailsmodal-mtdtype'>
 								
                             </select>
