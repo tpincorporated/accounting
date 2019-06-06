@@ -1,9 +1,9 @@
 <?php
 
 	$host = "127.0.0.1";
-	$dbname = "accounting";
+	$dbname = "tpi_acct";
 	$username = "root";
-	$password = "";
+	$password = "root";
 
 	@define('DBNAME', $dbname);
 
