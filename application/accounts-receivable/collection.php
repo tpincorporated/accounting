@@ -277,16 +277,16 @@
 
                     </div>
                     <div class='col-md-offset-1 col-md-6'>
+                    
+                        <div class="form-group"> 
+                            <label class='control-label'>Collection Number</label>
+                            <input type="text" name="coll-payments-no" id="coll-payments-no" class="form-control colladdpaymentdetailsmodal-no"/>
+                        </div>
                     	<div class="form-group">
-                            
                             <label class='control-label'>Select Type</label>
                             <select class='form-control colladdpaymentdetailsmodal-mtdtype select2' name='colladdpaymentdetailsmodal-mtdtype'>
 								
                             </select>
-                        </div>
-                        <div class="form-group"> 
-                            <label class='control-label'>Collection Number</label>
-                            <input type="text" name="coll-payments-no" id="coll-payments-no" class="form-control colladdpaymentdetailsmodal-no"/>
                         </div>
                         <div class="form-group">
                             <label class='control-label'>Amount</label>
