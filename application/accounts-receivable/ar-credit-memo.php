@@ -276,13 +276,20 @@
 
                     </div>
                     <div class='col-md-offset-1 col-md-6'>
-                    	<div class="form-group">
-                            <label class='control-label'>Select Type</label>
-                            <select class='form-control add chartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
-								<option value="Detail">Detail</option>
-								<option value="Detail">Header</option>
-                            </select>
+                    <div class="form-group"> 
+                            <label class='control-label'>Credit Memo Number</label>
+                            <input type="text" name="cm-addpostingdetailsmodal-no" id="cm-addpostingdetailsmodal-no" class="form-control cm-addpostingdetailsmodal-no"/>
                         </div>
+                        <div class="form-group"> 
+                            <label class='control-label'>Account Number</label>
+                            <input type="text" name="cm-addpostingdetailsmodal-accno" id="cm-addpostingdetailsmodal-accno" class="form-control cm-addpostingdetailsmodal-accno"/>
+                        </div>
+                        <div class="form-group">
+                            <label class='control-label'>Amount</label>
+                            <input type="number" name="cm-addpostingdetailsmodal-amt" id="cm-addpostingdetailsmodal-amt" class="form-control cm-addpostingdetailsmodal-amt">
+                        </div>
+
+                       
                         <div class="form-group"> 
 
                         </div>

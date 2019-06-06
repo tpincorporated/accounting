@@ -349,8 +349,7 @@
 								<option value="Detail">Detail</option>
 								<option value="Detail">Header</option>
                             </select>
-                        </div>
-                        <div class="form-group"> 
+                          
 
                         </div>
                     </div>
