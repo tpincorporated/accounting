@@ -310,7 +310,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label class='control-label'>Bank</label>
+                            <label class='control-label'>Collection Type</label>
                             <select class='form-control colladdpaymentdetailsmodal-colltype select2' name='colladdpaymentdetailsmodal-colltype'>
                             </select>
                         </div>
