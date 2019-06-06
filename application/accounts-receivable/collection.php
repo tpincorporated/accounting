@@ -272,16 +272,29 @@
                 </div>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" method='post' id='addchartofaccountsmodal-form'  enctype='multipart/form-data'>
+                <form class="form-horizontal" method='post' id='colladdpaymentdetailsmodal-form'  enctype='multipart/form-data'>
                     <div class='col-md-4'>
 
                     </div>
                     <div class='col-md-offset-1 col-md-6'>
                     	<div class="form-group">
+                            <input type="text" name="coll-payments-no" id="coll-payments-no" class="form-control colladdpaymentdetailsmodal-no"/>
                             <label class='control-label'>Select Type</label>
-                            <select class='form-control add chartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
-								<option value="Detail">Detail</option>
-								<option value="Detail">Header</option>
+                            <select class='form-control colladdpaymentdetailsmodal-mtdtype select2' name='colladdpaymentdetailsmodal-mtdtype'>
+								
+                            </select>
+                            <input type="number" name="colladdpaymentdetailsmodal-amt" id="colladdpaymentdetailsmodal-amt" class="form-control colladdpaymentdetailsmodal-amt">
+                            <select class='form-control colladdpaymentdetailsmodal-bankacc select2' name='colladdpaymentdetailsmodal-bankacc'>
+
+                            </select>
+                            <input type="text" name="coll-payments-checkno" id="coll-payments-checkno" class="form-control colladdpaymentdetailsmodal-checkno"/>
+                            <select class='form-control colladdpaymentdetailsmodal-bank select2' name='colladdpaymentdetailsmodal-bank'>
+                                <option value="1">BDO</option>
+								<option value="2">BPI</option>
+                                <option value="3">SECURITY BANK</option>
+                            </select>
+                            <select class='form-control colladdpaymentdetailsmodal-colltype select2' name='colladdpaymentdetailsmodal-colltype'>
+
                             </select>
                         </div>
                         <div class="form-group"> 
@@ -293,7 +306,7 @@
             </div>
             <div class="modal-footer">
                 <div class="text-center">
-                    <button class='btn btn-blue2 mybtn' id='addchartofaccountsmodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn' id='colladdpaymentdetailsmodal-uploadbtn'>Save</button>
                     <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
                 </div>
             </div>
@@ -311,14 +324,14 @@
                 </div>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" method='post' id='addchartofaccountsmodal-form'  enctype='multipart/form-data'>
+                <form class="form-horizontal" method='post' id='colladdpaymentdetailsmodal-form'  enctype='multipart/form-data'>
                     <div class='col-md-4'>
 
                     </div>
                     <div class='col-md-offset-1 col-md-6'>
                     	<div class="form-group">
                             <label class='control-label'>Select Type</label>
-                            <select class='form-control add chartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='colladdpaymentdetailsmodal-type'>
 								<option value="Detail">Detail</option>
 								<option value="Detail">Header</option>
                             </select>
@@ -332,7 +345,7 @@
             </div>
             <div class="modal-footer">
                 <div class="text-center">
-                    <button class='btn btn-blue2 mybtn' id='addchartofaccountsmodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn' id='colladdpaymentdetailsmodal-uploadbtn'>Save</button>
                     <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
                 </div>
             </div>
@@ -350,14 +363,14 @@
                 </div>
             </div>
             <div class="modal-body">
-                <form class="form-horizontal" method='post' id='addchartofaccountsmodal-form'  enctype='multipart/form-data'>
+                <form class="form-horizontal" method='post' id='colladdpaymentdetailsmodal-form'  enctype='multipart/form-data'>
                     <div class='col-md-4'>
 
                     </div>
                     <div class='col-md-offset-1 col-md-6'>
                     	<div class="form-group">
                             <label class='control-label'>Select Type</label>
-                            <select class='form-control add chartofaccountsmodal-type select2' name='addchartofaccountsmodal-type'>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='colladdpaymentdetailsmodal-type'>
 								<option value="Detail">Detail</option>
 								<option value="Detail">Header</option>
                             </select>
@@ -371,7 +384,7 @@
             </div>
             <div class="modal-footer">
                 <div class="text-center">
-                    <button class='btn btn-blue2 mybtn' id='addchartofaccountsmodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn' id='colladdpaymentdetailsmodal-uploadbtn'>Save</button>
                     <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
                 </div>
             </div>
