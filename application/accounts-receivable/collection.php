@@ -285,19 +285,24 @@
                             </select>
                         </div>
                         <div class="form-group"> 
+                            <label class='control-label'>Collection Number</label>
                             <input type="text" name="coll-payments-no" id="coll-payments-no" class="form-control colladdpaymentdetailsmodal-no"/>
                         </div>
                         <div class="form-group">
+                            <label class='control-label'>Amount</label>
                             <input type="number" name="colladdpaymentdetailsmodal-amt" id="colladdpaymentdetailsmodal-amt" class="form-control colladdpaymentdetailsmodal-amt">
                         </div>
                         <div class="form-group">
+                            <label class='control-label'>Bank Account</label>
                             <select class='form-control colladdpaymentdetailsmodal-bankacc select2' name='colladdpaymentdetailsmodal-bankacc'>
                             </select>
                         </div>
                         <div class="form-group">
+                            <label class='control-label'>Check Number</label>
                             <input type="text" name="coll-payments-checkno" id="coll-payments-checkno" class="form-control colladdpaymentdetailsmodal-checkno"/>
                         </div>
                         <div class="form-group">
+                            <label class='control-label'>Bank</label>
                             <select class='form-control colladdpaymentdetailsmodal-bank select2' name='colladdpaymentdetailsmodal-bank'>
                                 <option value="1">BDO</option>
 								<option value="2">BPI</option>
@@ -305,6 +310,7 @@
                             </select>
                         </div>
                         <div class="form-group">
+                            <label class='control-label'>Bank</label>
                             <select class='form-control colladdpaymentdetailsmodal-colltype select2' name='colladdpaymentdetailsmodal-colltype'>
                             </select>
                         </div>
