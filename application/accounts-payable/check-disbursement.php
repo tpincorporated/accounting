@@ -266,8 +266,158 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="addcheck-disbursementspaymentmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class='page-title'>
+                    Payments
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" method='post' id='addcheck-disbursementspaymentmodal-form'  enctype='multipart/form-data'>
+                    <div class='col-md-4'>
 
+                    </div>
+                    <div class='col-md-offset-1 col-md-6'>
+                    	<div class="form-group">
+                            <label class='control-label'>Select Type</label>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='addcheck-disbursementspaymentmodal-type'>
+								<option value="Detail">Detail</option>
+								<option value="Detail">Header</option>
+                            </select>
+                        </div>
+                        <div class="form-group"> 
 
+                        </div>
+                    </div>
+                </form>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class='btn btn-blue2 mybtn' id='addcheck-disbursementspaymentmodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="addcheck-disbursementsdebitmemomodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class='page-title'>
+                    Payments
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" method='post' id='addcheck-disbursementsdebitmemomodal-form'  enctype='multipart/form-data'>
+                    <div class='col-md-4'>
+
+                    </div>
+                    <div class='col-md-offset-1 col-md-6'>
+                    	<div class="form-group">
+                            <label class='control-label'>Select Type</label>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='addcheck-disbursementsdebitmemomodal-type'>
+								<option value="Detail">Detail</option>
+								<option value="Detail">Header</option>
+                            </select>
+                        </div>
+                        <div class="form-group"> 
+
+                        </div>
+                    </div>
+                </form>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class='btn btn-blue2 mybtn' id='addcheck-disbursementsdebitmemomodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="addcheck-disbursementspayablesmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class='page-title'>
+                    Payments
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" method='post' id='addcheck-disbursementspayablesmodal-form'  enctype='multipart/form-data'>
+                    <div class='col-md-4'>
+
+                    </div>
+                    <div class='col-md-offset-1 col-md-6'>
+                    	<div class="form-group">
+                            <label class='control-label'>Select Type</label>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='addcheck-disbursementspayablesmodal-type'>
+								<option value="Detail">Detail</option>
+								<option value="Detail">Header</option>
+                            </select>
+                        </div>
+                        <div class="form-group"> 
+
+                        </div>
+                    </div>
+                </form>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class='btn btn-blue2 mybtn' id='addcheck-disbursementspayablesmodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="addcheck-disbursementsapplytoexpensemodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class='page-title'>
+                    Payments
+                    <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" method='post' id='addcheck-disbursementsapplytoexpensemodal-form'  enctype='multipart/form-data'>
+                    <div class='col-md-4'>
+
+                    </div>
+                    <div class='col-md-offset-1 col-md-6'>
+                    	<div class="form-group">
+                            <label class='control-label'>Select Type</label>
+                            <select class='form-control add chartofaccountsmodal-type select2' name='addcheck-disbursementsapplytoexpensemodal-type'>
+								<option value="Detail">Detail</option>
+								<option value="Detail">Header</option>
+                            </select>
+                        </div>
+                        <div class="form-group"> 
+
+                        </div>
+                    </div>
+                </form>
+                <br>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button class='btn btn-blue2 mybtn' id='addcheck-disbursementsapplytoexpensemodal-uploadbtn'>Save</button>
+                    <button class='btn btn-blue2 mybtn modal-cancelbtn' >Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script type="text/javascript">
 	/**** INITIALIZED *******/
@@ -300,7 +450,7 @@
                         {display: 'Amount', name : 'debitaccountname', width : 150, sortable : true, align: 'right'}
                 ],
                 buttons : [
-                        {name: 'Add', bclass: 'add', onpress : ''},
+                        {name: 'Add', bclass: 'add', onpress : showaddcheckdisbursementspaymentmodal},
                         {separator: true},
                         {name: 'Delete', bclass: 'delete', onpress : ''}
                         /*{separator: true},
@@ -337,7 +487,7 @@
                         {display: 'Amount', name : 'creditaccountnumber', width : 150, sortable : true, align: 'right'}
                 ],
                 buttons : [
-                        {name: 'Add', bclass: 'add', onpress : ''},
+                        {name: 'Add', bclass: 'add', onpress : showaddcheckdisbursementsdebitmemomodal},
                         {separator: true},
                         {name: 'Delete', bclass: 'delete', onpress : ''}
                         /*{separator: true},
@@ -376,7 +526,7 @@
                         {display: 'Amount Due', name : 'creditaccountnumber', width : 150, sortable : true, align: 'left'}
                 ],
                 buttons : [
-                        {name: 'Add', bclass: 'add', onpress : ''},
+                        {name: 'Add', bclass: 'add', onpress : showaddcheckdisbursementspayablesmodal},
                         {separator: true},
                         {name: 'Delete', bclass: 'delete', onpress : ''}
                         /*{separator: true},
@@ -415,7 +565,7 @@
                         {display: 'Discount', name : 'creditaccountnumber', width : 150, sortable : true, align: 'left'}
                 ],
                 buttons : [
-                        {name: 'Add', bclass: 'add', onpress : ''},
+                        {name: 'Add', bclass: 'add', onpress : showaddcheckdisbursementsapplytoexpensemodal},
                         {separator: true},
                         {name: 'Delete', bclass: 'delete', onpress : ''}
                         /*{separator: true},
@@ -438,7 +588,23 @@
                 //width: 800,
                 height: 250,
                 singleSelect: true
-       		});
+               });
+               
+               function  showaddcheckdisbursementspaymentmodal(){
+               $("#addcheck-disbursementspaymentmodal").modal('show')
+            }
+            
+            function  showaddcheckdisbursementsdebitmemomodal(){
+               $("#addcheck-disbursementsdebitmemomodal").modal('show')
+            }
+            function  showaddcheckdisbursementspayablesmodal(){
+               $("#addcheck-disbursementspayablesmodal").modal('show')
+            }
+            function  showaddcheckdisbursementsapplytoexpensemodal(){
+               $("#addcheck-disbursementsapplytoexpensemodal").modal('show')
+            }
+
+
 
 	       
 			
